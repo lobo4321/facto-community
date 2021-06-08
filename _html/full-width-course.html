@@ -16,7 +16,7 @@
     <!-- Custom Color Option -->
     <link href="assets/css/colors.css" rel="stylesheet" />
   </head>
-
+  
   <body class="red-skin">
     <!-- ============================================================== -->
     <!-- Preloader - style you can find in spinners.css -->
@@ -239,12 +239,12 @@
             <div class="col-md-12 col-lg-12">
               <div id="filter-sidebar" class="filter-sidebar">
                 <div class="filt-head">
-                  <h4 class="filt-first">Advance Options</h4>
+                  <h4 class="filt-first">Opções Avançadas</h4>
                   <a
                     href="javascript:void(0)"
                     class="closebtn"
                     onclick="closeNav()"
-                    >Close <i class="ti-close"></i
+                    >Fechar <i class="ti-close"></i
                   ></a>
                 </div>
                 <div class="show-hide-sidebar">
@@ -266,12 +266,7 @@
                     <h4 class="side_title">Categorias</h4>
                     <ul class="no-ul-list mb-3">
                       <li>
-                        <input
-                          id="a-4"
-                          class="checkbox-custom"
-                          name="a-4"
-                          type="checkbox"
-                        />
+                        <button onclick="myFunction()"></button>
                         <label for="a-4" class="checkbox-custom-label"
                           >Barbeiro (3)</label
                         >
@@ -369,12 +364,9 @@
                     <h4 class="side_title">Materiais</h4>
                     <ul class="no-ul-list mb-3">
                       <li>
-                        <input
-                          id="a-1"
-                          class="checkbox-custom"
-                          name="a-1"
-                          type="checkbox"
-                        />
+                        <button class="btn">
+
+                        </button>
                         <label for="a-1" class="checkbox-custom-label"
                           >Cursos (4)</label
                         >
@@ -466,7 +458,7 @@
               <!-- Row -->
               <div class="row align-items-center mb-3">
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                  We found <strong>142</strong> courses for you
+                  Encontramos <strong>142</strong> cursos para você
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 ordering">
                   <div class="filter_wraps">
@@ -509,7 +501,7 @@
 
               <div class="row">
                 <!-- Cource Grid 1 -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6 filterDiv barbeiro">
                   <div class="education_block_grid">
                     <div class="education_block_thumb">
                       <a href="course-detail.html"
@@ -527,8 +519,7 @@
                     <div class="education_block_body">
                       <h4 class="bl-title">
                         <a href="course-detail.html"
-                          >Tableau for Beginners: Get CA Certified, Grow Your
-                          Career</a
+                          >Barbeiro 1 </a
                         >
                       </h4>
                       <p>
@@ -559,7 +550,7 @@
                 </div>
 
                 <!-- Cource Grid 1 -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6 filterDiv barbeiro">
                   <div class="education_block_grid">
                     <div class="education_block_thumb">
                       <a href="course-detail.html"
@@ -577,8 +568,7 @@
                     <div class="education_block_body">
                       <h4 class="bl-title">
                         <a href="course-detail.html"
-                          >The Complete Business Plan Course (Includes 50
-                          Templates)</a
+                          >Barbeiro 2</a
                         >
                       </h4>
                       <p>
@@ -607,7 +597,7 @@
                 </div>
 
                 <!-- Cource Grid 1 -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6 filterDiv barbeiro">
                   <div class="education_block_grid">
                     <div class="education_block_thumb">
                       <a href="course-detail.html"
@@ -625,8 +615,7 @@
                     <div class="education_block_body">
                       <h4 class="bl-title">
                         <a href="course-detail.html"
-                          >An Entire MBA in 1 Course:Award Winning Business
-                          School Prof</a
+                          >Barbeiro 3</a
                         >
                       </h4>
                       <p>
@@ -873,116 +862,29 @@
 
       <!-- ============================ Footer Start ================================== -->
       <footer class="dark-footer skin-dark-footer">
-        <div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-3 col-md-3">
-                <div class="footer-widget">
-                  <img
-                    src="assets/img/logo-light.png"
-                    class="img-footer"
-                    alt=""
-                  />
-                  <div class="footer-add">
-                    <p>4967 Sardis Sta, Victoria 8007, Montreal.</p>
-                    <p>+1 246-345-0695</p>
-                    <p>info@learnup.com</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-2 col-md-3">
-                <div class="footer-widget">
-                  <h4 class="widget-title">Navigations</h4>
-                  <ul class="footer-menu">
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="faq.html">FAQs Page</a></li>
-                    <li><a href="checkout.html">Checkout</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-3">
-                <div class="footer-widget">
-                  <h4 class="widget-title">New Categories</h4>
-                  <ul class="footer-menu">
-                    <li><a href="#">Designing</a></li>
-                    <li><a href="#">Nusiness</a></li>
-                    <li><a href="#">Software</a></li>
-                    <li><a href="#">WordPress</a></li>
-                    <li><a href="#">PHP</a></li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-3">
-                <div class="footer-widget">
-                  <h4 class="widget-title">Help & Support</h4>
-                  <ul class="footer-menu">
-                    <li><a href="#">Documentation</a></li>
-                    <li><a href="#">Live Chat</a></li>
-                    <li><a href="#">Mail Us</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Faqs</a></li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-12">
-                <div class="footer-widget">
-                  <h4 class="widget-title">Download Apps</h4>
-                  <a href="#" class="other-store-link">
-                    <div class="other-store-app">
-                      <div class="os-app-icon">
-                        <i class="lni-playstore theme-cl"></i>
-                      </div>
-                      <div class="os-app-caps">
-                        Google Play
-                        <span>Get It Now</span>
-                      </div>
-                    </div>
-                  </a>
-                  <a href="#" class="other-store-link">
-                    <div class="other-store-app">
-                      <div class="os-app-icon">
-                        <i class="lni-apple theme-cl"></i>
-                      </div>
-                      <div class="os-app-caps">
-                        App Store
-                        <span>Now it Available</span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
         <div class="footer-bottom">
           <div class="container">
             <div class="row align-items-center">
               <div class="col-lg-6 col-md-6">
                 <p class="mb-0">
-                  © 2020 LearnUp. Designd By
-                  <a href="https://themezhub.com">Themezhub</a>.
+                  © 2021 Facto
+                  <a href="https://themezhub.com"></a>
                 </p>
               </div>
 
               <div class="col-lg-6 col-md-6 text-right">
                 <ul class="footer-bottom-social">
                   <li>
-                    <a href="#"><i class="ti-facebook"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/Factobrasil"><i class="ti-facebook"></i></a>
+                  </li>
+                  
+                  <li>
+                    <a target="_blank" href="https://www.instagram.com/factobr/"><i class="ti-instagram"></i></a>
                   </li>
                   <li>
-                    <a href="#"><i class="ti-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="ti-instagram"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="ti-linkedin"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/company/facto-brasil/?viewAsMember=true"><i class="ti-linkedin"></i></a>
                   </li>
                 </ul>
               </div>
@@ -1168,7 +1070,7 @@
     <!-- ============================================================== -->
     <!-- This page plugins -->
     <!-- ============================================================== -->
-    <script>
+    <script> 
       function openNav() {
         document.getElementById("filter-sidebar").style.width = "320px";
       }
@@ -1176,6 +1078,10 @@
       function closeNav() {
         document.getElementById("filter-sidebar").style.width = "0";
       }
+
+      
     </script>
+
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>
